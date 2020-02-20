@@ -1,0 +1,83 @@
+html{
+    -webkit-animation: fadein 2s;
+	/* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s;
+	/* Firefox < 16 */
+	-o-animation: fadein 2s;
+	/* Opera < 12.1 */
+	animation: fadein 2s;
+}
+
+
+body{
+    background-color: white;
+    text-align: center;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    font-size: 300%;
+
+
+}
+
+table, th, td {
+    text-align: center;
+  }
+
+
+.button {
+    border-radius: 30px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    background-color: black; 
+    border: none;
+    color: whitesmoke;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: whitesmoke; 
+    color: black; 
+    border: 2px solid black;
+  }
+  
+  .button1:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+
+h1 {
+    font-size: 80%;
+}
+h3{
+    font-size: 75%;
+
+    
+
+}
+.counter{
+    font-size: 150%;
+}
+.dark{
+    background-color: black;
+    color: whitesmoke;
+    padding-bottom: 5%;
+}
+.light{
+    background-color: white;
+    color: black;
+    padding-bottom: 5%;
+}
+.red{
+    background-color: tomato;
+    color: whitesmoke;
+    padding-bottom: 5%;
+}

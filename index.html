@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>ReflexGame</title>
+  <meta name="description" content="Reflex game">
+  <meta name="author" content="Mateusz Kojro">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Hello click here to begin</h1>
+
+    <button onclick="single()" class="button button1">Singleplayer</button>
+    <button onclick="multi()" class="button button1">Multiplayer</button>
+    <script>function single(){
+        window.location.assign("game.html");
+
+    }
+    function multi(){
+        window.location.assign("multi.html");
+    }
+
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
