@@ -51,11 +51,11 @@ function draw(){
 
 
 function keyPressed() {
-    if (keyCode === LEFT_ARROW){
+    if (keyCode === LEFT_ARROW  && trigered == true){
 
         clicked(1);
     }
-    if (keyCode === RIGHT_ARROW){
+    if (keyCode === RIGHT_ARROW && trigered == true){
         
         clicked(2);
     }
@@ -89,10 +89,10 @@ function clicked(n){
         document.getElementById("pl2").innerHTML = "Your time: " + Math.floor(result2) + "ms";
 
         if (result1 < result2){
-            document.getElementById("pl1").style.background = "green"
+            document.getElementById("pl1").style.background = "limegreen";
         }
         else{
-            document.getElementById("pl2").style.background = "green"
+            document.getElementById("pl2").style.background = "limegreen";
         }
 
     }

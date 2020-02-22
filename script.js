@@ -34,12 +34,12 @@ function draw(){
 }
 
 function keyPressed() {
-    if (keyCode === UP_ARROW){
+    if (keyCode === UP_ARROW && trigered == true){
         clicked();
 
     }
 
-    if (keyCode === LEFT_ARROW){
+    if (keyCode === LEFT_ARROW && trigered == true){
         location.reload();
     }
 }
